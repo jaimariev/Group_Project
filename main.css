@@ -1,0 +1,489 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+	background:#ECE4D4;
+	font-family: "Abel";
+}
+
+
+#socialDiv {
+	height:50px;
+}
+
+#socialList {
+	position: relative;
+	float: right;
+	right: 20px;
+}
+
+#socialList li {
+	float: left;
+	margin:10px;
+}
+
+#socialList a{
+	color: black;
+}
+#imageBanner {
+	height:150px;
+	width:1250px;
+	overflow: hidden;
+	margin:auto;
+
+
+}
+#imageBanner img{
+	position: relative;
+	width:1250px;
+	background-position: 50%;
+		
+}
+ul {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+
+#navBar {
+	margin: auto;
+	height:50px;
+	background-color:#e75505;
+	width:1250px;
+	position: relative;
+	margin-bottom:85px;
+	
+}
+#navList {
+	margin:0;
+	margin:auto;
+	position: relative;
+
+
+}
+
+.main {
+
+	float: left;
+	list-style: none;
+	margin-right:80px;
+	padding-left: 15px;
+	padding-right: 15px;
+	left:300px;
+	position: relative;
+	top:15px;
+	color:white;
+
+}
+#subMenu {
+	position: absolute;
+	top:35px;
+	right:-82px;
+	margin-right: 10px;
+	width:120px;
+	color:white;
+	background-color: orange;
+	padding-left:5px;
+	display: none;
+	padding-left: 15px;
+
+}
+
+.subMenuLi a:hover {
+	color: black;
+}
+
+#menu:hover #subMenu {
+	display: block;
+}
+
+#navList .main:hover {
+	border-bottom: 3px solid black;
+	color: black;
+	padding-bottom: 11px;
+}
+
+
+
+#subMenu li {
+	width:120px;
+	display: block;
+	
+	
+}
+
+#bodyContainer {
+	position: relative;
+	background: #ECE4D4;
+	width:1000px;
+	margin:auto;
+
+}
+
+#specialContainer {
+	
+	position: absolute;
+	
+	top:40px;
+	right:5px;
+	display: block;
+	height:550px;
+	width:300px;
+	background-color: #000;
+}
+#location {
+	color: #fff;
+	position: relative;
+	left:10px;
+}
+
+#dailySpecial {
+	color: #fff;
+	position: relative;
+	left:10px;
+}
+
+#reviews {
+	height:275px;
+	width:100%;
+
+	position: relative;
+	top:40px;
+	color: #676767;
+	font-size: 24px;
+	display: inline;
+
+}
+
+#reviews p {
+	padding-bottom:25px;
+	margin:0;
+	position: relative;
+	width:100%;
+	display: inline;
+
+	
+
+}
+
+#experience {
+	height:340px;
+	width:65%;
+	background-color: #fff;
+	position: relative;
+	top:142px;
+	border-radius:5px;
+	clear: right;
+
+
+}
+
+#experience p {
+	position: relative;
+	top:35px;
+	padding:15px;
+	text-align: justify;
+
+
+}
+
+#newsContainer {
+	top:150px;
+	position: relative;
+	margin-bottom: 175px;
+
+
+}
+
+#entreeContainer {
+	background:white;
+	position: relative;
+	padding-top: 25px;
+
+}
+#appetizerContainer {
+	background:white;
+	position: relative;
+	padding-top: 25px;
+
+}
+
+#sidesContainer {
+	background:white;
+	position: relative;
+	padding-top: 25px;
+
+}
+
+#welcome {
+	font-size: 20px;
+	text-align: center;
+}
+
+#post {
+	padding:25px;
+	background:#fff;
+}
+
+#dateAdded {
+	position: relative;
+	float: left;
+	background-color: #fff;
+	padding:5px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	top:6px;
+}
+
+
+
+#lastMeal {
+	position: relative;
+	top:20px;
+	height: 250px;
+	width:250px;
+	margin:auto;
+	color: white;
+	text-align: center;
+}
+
+#special {
+	color: white;
+}
+#map {
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+#food {
+	position: relative;
+	width:100%;
+	background:#000;
+	margin-top: 150px;
+	color: white;
+}
+
+#beerContainer {
+	background:white;
+	padding-top: 25px;
+
+}
+
+
+
+.imgGal {
+	height:65%;
+	width:22%;
+	background:#fff;
+	position: relative;
+	top:45px;
+	left:60px;
+}
+
+.entreeList {
+	padding:2px;
+	padding-left: 16px;
+}
+
+.beerList {
+	padding:2px;
+	padding-left: 16px;
+	padding-right: 4px;
+}
+
+.sidesList {
+	padding:2px;
+	padding-left: 16px;
+	padding-right: 4px;
+}
+
+.appetizerList {
+	padding:2px;
+	padding-left: 16px;
+	padding-right: 4px;
+}
+
+button {
+	border: none;
+	background-color: white;
+	color: black;
+	outline: none;
+}
+
+.displayBlock {
+	display: block;
+}
+.beerDiv{
+	position: relative;
+	
+}
+
+#entreDiv {
+	position: relative;
+
+	
+}
+
+.spear {
+	
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 2, 0, 0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0));
+
+}
+
+#entreeDiv hr:last-child() {
+	display: none;
+}
+
+.itemName {
+	color:green;
+}
+
+#price {
+	position: absolute;
+	right:5px;
+	font-size: 18px;
+}
+
+#priceBeer {
+	float: right;
+	font-size: 18px;
+	
+}
+
+#sidesPrice {
+	position: absolute;
+	right:5px;
+	font-size: 18px;
+	
+}
+
+#appPrice {
+	position: absolute;
+	right:5px;
+	font-size: 18px;
+
+}
+
+#footer {
+	position: relative;
+	height:120px;
+	width:100%;
+	background:#e75505;
+	top:30px;
+
+}
+
+#footer p{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.footer-icons ul{
+	position: relative;
+	left: 520px;
+	bottom: 40px;
+}
+
+.footer-icons li{
+	float: left;
+	margin: 10px;
+}
+
+.footer-icons a{
+	color:black;
+}
+
+
+#footer .contact{
+	position: relative;
+	margin-top: 45px;
+	right: 118px;
+}
+
+.contact a{
+	color: white;
+}
+
+#reservationForm {
+	height:550px;
+	width:550px;
+	position: absolute;
+	top:250px;
+	left:300px;
+	border-radius: 5px;
+	background-color: #90AFC5;
+
+}
+.hidden {
+	display: none;
+}
+.displayBlock {
+	display: block;
+}
+
+.blur {
+	filter: blur(5px);
+}
+
+
+#reservation {
+	text-align: center;
+	display: block;
+	margin:0;
+	position: relative;
+	top:15px;
+
+}
+#formHeader {
+	height:60px;
+	position: relative;
+	margin-bottom:15px;
+	color:white;
+	background-color: #336B87;
+	z-index: 2;
+
+}
+
+.formInput {
+	width:350px;
+	display: block;
+	height:40px;
+	border:1px solid black;
+	margin-bottom: 25px;
+	border-radius: 3px;
+	background:#fff;
+	outline:none;
+	padding-left: 10px;
+}
+
+#formData {
+	margin:auto;
+	width:350px;
+
+}
+
+#submit {
+	height:50px; 
+	width:120px;
+	background-color: #336B87;
+	color:white;
+	outline:none;
+	border:none;
+	border-radius: 3px;
+}
