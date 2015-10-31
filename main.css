@@ -40,7 +40,6 @@ body {
 #imageBanner img{
 	position: relative;
 	width:1250px;
-	background-position: 50%;
 		
 }
 ul {
@@ -159,7 +158,6 @@ a {
 #reviews {
 	height:275px;
 	width:100%;
-
 	position: relative;
 	top:40px;
 	color: #676767;
