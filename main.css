@@ -383,7 +383,8 @@ button {
 #footer {
 	position: relative;
 	height:120px;
-	width:100%;
+	width:1250px;
+	margin: auto;
 	background:#e75505;
 	top:30px;
 
