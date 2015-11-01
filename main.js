@@ -109,8 +109,15 @@ $(document).ready(function(){
 
  $("#reservationLi").on("click", function(){
  	$("#reservationForm").toggleClass("hidden");
- 	$("#masterDiv").toggleClass("blur");
+ 	$("#overlay").toggleClass("hidden");
 
+ });
+
+ $("#overlay").on("click", function(e){
+ 	if ($(e.target).is("#overlay")) {
+ 		$("#overlay").addClass("hidden");
+ 		$("#reservationForm").addClass("hidden");
+ 	};
  });
 	  
 	
@@ -179,20 +186,104 @@ var sidesUrl = "https://json-data.herokuapp.com/restaurant/menu/1";
 });
 
 
-$("#appetizerBtn").on('click',function(){
-	$("#appAccord").toggleClass("hidden");
+ $("#appetizerBtn").on("click", function(){
+ 	$("#appAccord").toggleClass("displayBlock");
+ 	clear("#beerAccord");
+ 	clear("#carteAccord");
+ 	clear("#entreeAccord");
+
+ });
+
+  $("#entreeBtn").on("click", function(){
+ 	$("#entreeAccord").toggleClass("displayBlock");
+ 	clear("#appAccord");
+ 	clear("#beerAccord");
+ 	clear("#carteAccord");
+
+ });
+
+   $("#carteBtn").on("click", function(){
+ 	$("#carteAccord").toggleClass("displayBlock");
+ 	clear("#entreeAccord");
+ 	clear("#appAccord");
+ 	clear("#beerAccord");
+
+ });
+
+
+ $("#beerBtn").on("click", function(){
+ 	$("#beerAccord").toggleClass("displayBlock");
+ 	clear("#entreeAccord");
+ 	clear("#appAccord");
+ 	clear("#carteAccord");
+ 	
+
+ });
+
+
+
+
+
+
+ var clear=function(x){
+ 	$(x).removeClass("displayBlock");
+};
+
+$("#li_1").on("click",function(){
+	$("#appAccord").toggleClass("displayBlock");
+	clear("#beerAccord");
+ 	clear("#carteAccord");
+ 	clear("#entreeAccord");
 });
 
-$("#entreeBtn").on('click',function(){
-	$("#entAccord").toggleClass("displayBlock");
+$("#li_2").on("click",function(){
+	$("#entreeAccord").toggleClass("displayBlock");
+	clear("#appAccord");
+ 	clear("#beerAccord");
+ 	clear("#carteAccord");
 });
 
-$("#carteBtn").on('click',function(){
+$("#li_3").on("click",function(){
 	$("#carteAccord").toggleClass("displayBlock");
+	clear("#entreeAccord");
+ 	clear("#appAccord");
+ 	clear("#beerAccord");
 });
 
-$("#drinkBtn").on('click',function(){
-	$("#drinkAccord").toggleClass("displayBlock");
+$("#li_4").on("click",function(){
+	$("#beerAccord").toggleClass("displayBlock");
+	clear("#entreeAccord");
+ 	clear("#appAccord");
+ 	clear("#carteAccord");
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
+
+
+
+
+
